@@ -1,0 +1,14 @@
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*
+An alternate solution would be:
+
+div p {
+    declarations here
+}
+*/
