@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -37,6 +41,17 @@ button {
   padding: 8px 24px;
 }
 
+.left-items {
+  display: flex;
+  gap: 16px;
+}
+
+.right-items {
+  display: flex;
+  gap: 16px;
+}
+
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
@@ -44,5 +59,8 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  padding: 0px;
+  gap: 16px;
 }
