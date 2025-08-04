@@ -1,5 +1,31 @@
 body {
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
+}
+
+/* .container {
+  display: flex;
+  row-gap: 32px;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.image-container {
+  gap: 52px;
+  justify-content: center;
+  display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  flex-basis: 200px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-wrap: wrap; */
 }
 
 img {
@@ -8,6 +34,8 @@ img {
 }
 
 .title {
+  /* display: flex; */
+  margin-bottom: 32px;
   font-size: 36px;
   font-weight: 900;
 }
